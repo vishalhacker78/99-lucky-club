@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>99 Lucky Club - Trial</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="login-box">
+    <h1>99 Lucky Club</h1>
+    <p>Enter Mobile Number</p>
+    <input type="text" placeholder="Enter number" id="mobile" />
+    <button onclick="sendOTP()">Send OTP</button>
+    <div id="otp-box" style="display:none;">
+      <p>Enter OTP</p>
+      <input type="text" id="otp" placeholder="1234" />
+      <button onclick="verifyOTP()">Login</button>
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
