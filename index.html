@@ -1,23 +1,20 @@
+<!-- 99 Lucky Club - Trial Version -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>99 Lucky Club - Trial</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>99 Lucky Club - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="login-box">
-    <h1>99 Lucky Club</h1>
-    <p>Enter Mobile Number</p>
-    <input type="text" placeholder="Enter number" id="mobile" />
-    <button onclick="sendOTP()">Send OTP</button>
-    <div id="otp-box" style="display:none;">
-      <p>Enter OTP</p>
-      <input type="text" id="otp" placeholder="1234" />
-      <button onclick="verifyOTP()">Login</button>
-    </div>
+  <div class="header">99 Lucky Club</div>
+  <div class="main">
+    <h1>Welcome to 99 Lucky Club</h1>
+    <p>Play and Win Big with Low / Max</p>
+    <button class="btn" onclick="location.href='login.html'">Play Now</button>
   </div>
-  <script src="assets/js/script.js"></script>
+  <div class="footer">&copy; 2025 99 Lucky Club | All Rights Reserved</div>
 </body>
 </html>
